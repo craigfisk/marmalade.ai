@@ -1,0 +1,68 @@
+baseurl         = "https://example.craigfisk.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Marmalade.ai"
+  subtitle    = "Professional networking for the 21st century"
+
+  #cover       = "img/blog-cover.jpg"
+  cover        = "images/cory-schadt-Hhcn6yy3Uo8-unsplash_2000x666.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+# ToDo: Need handles for marmalade.ai on Twitter, at least, instead of craigfisk
+  twitterName = "craigfisk"
+  # fbName = ""
+  # githubName = "craigfisk"
+
+#  logo = "hugo-logo.png"
+  logo = ""
+  orgName = "Marmalade"
+  orgWebsite = "https://marmalade.ai"
+  orgDescription = "Professional networking for the 21st century"
+
+  author = "Craig Fisk"
+  authorAvatar = "images/Craig_Fisk_DSCF2722_w250.jpg"
+  #authorAvatar = "defimg/CraigFisk_Guggenheim400x400.jpeg"
+  authorLocation = "San Jose, CA, USA"
+  authorWebsite = "https://craigfisk.com"
+  authorDescription = "Co-founder"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+# Relatively unique to this theme: means hugo new post/my-post.md
+# is how you create my-post.md in content/post/
+
+[[menu.main]]
+  name = "Main"
+  url = "/"
+  weight = 200
+
+# Why, What, Who? Private beta
+
+[[menu.main]]
+  name = "Project"
+  url = "tags/project"
+  weight = 100
+
+[[menu.main]]
+  name = "My Life"
+  url = "/categories/life"
+  weight = 99
+
+[[menu.main]]
+  name = "Google"
+  url = "https://google.com/"
+  weight = 95
