@@ -46,23 +46,23 @@ paginate        = 6
 # is how you create my-post.md in content/post/
 
 [[menu.main]]
-  name = "Main"
+  name = "Home"
   url = "/"
   weight = 200
 
 # Why, What, Who? Private beta
 
 [[menu.main]]
-  name = "Project"
-  url = "tags/project"
+  name = "Problem"
+  url = "tags/problem"
   weight = 100
 
-[[menu.main]]
-  name = "My Life"
-  url = "/categories/life"
-  weight = 99
-
-[[menu.main]]
-  name = "Google"
-  url = "https://google.com/"
-  weight = 95
+# [[menu.main]]
+#   name = "My Life"
+#   url = "/categories/life"
+#   weight = 99
+#
+# [[menu.main]]
+#   name = "Google"
+#   url = "https://google.com/"
+#   weight = 95
