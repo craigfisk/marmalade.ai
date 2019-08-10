@@ -22,5 +22,20 @@
   </div>
 </main>
 
+<p>Here is $.Site:</p>
+{{ printf "%#v" $.Site }}
+<br/>
+
+</br/>
+<p>Here are variables:</p>
+{{ printf "%#v" . }}
+<br/>
+<br/>
+
+<p>This is where the footer goes</p>
+<br/>
+
 {{ partial "footer" . }}
-</div>{{ partial "js" . }}</body></html>
+</div>{{ partial "js" . }}
+</body>
+</html>

@@ -54,14 +54,14 @@ paginate        = 6
 
 [[menu.main]]
   name = "Problem"
-  url = "tags/problem"
+  url = "/problem"
   weight = 100
 
-# [[menu.main]]
-#   name = "My Life"
-#   url = "/categories/life"
-#   weight = 99
-#
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 99
+
 # [[menu.main]]
 #   name = "Google"
 #   url = "https://google.com/"
