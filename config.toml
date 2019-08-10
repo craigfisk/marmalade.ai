@@ -1,5 +1,5 @@
 baseurl         = "https://example.craigfisk.com"
-theme           = "casper-two"
+theme           = "hugo-casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
 paginate        = 6
