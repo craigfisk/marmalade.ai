@@ -1,3 +1,4 @@
+
 {{ partial "head" . }}
 
 <body class="home-template"><div class="site-wrapper">
@@ -5,6 +6,10 @@
 {{ partial "header" . }}
 
 <main id="site-main" class="site-main outer" role="main">
+  <P style="font-weight:bold; font-size:0.8em">
+    Private beta by invitation-only.
+    </P>
+{{/* CF20190113 commented out the blog post listing
   <div class="inner">
     <div class="post-feed">
       {{ partial "post-list" . }}
@@ -20,22 +25,8 @@
       {{end}}
     </nav>
   </div>
+*/}}
 </main>
 
-<p>Here is $.Site:</p>
-{{ printf "%#v" $.Site }}
-<br/>
-
-</br/>
-<p>Here are variables:</p>
-{{ printf "%#v" . }}
-<br/>
-<br/>
-
-<p>This is where the footer goes</p>
-<br/>
-
 {{ partial "footer" . }}
-</div>{{ partial "js" . }}
-</body>
-</html>
+</div>{{ partial "js" . }}</body></html>

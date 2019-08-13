@@ -18,7 +18,7 @@ paginate        = 6
   RSSLink = ""
 
 # ToDo: Need handles for marmalade.ai on Twitter, at least, instead of craigfisk
-  twitterName = "craigfisk"
+  # twitterName = "craigfisk"
   # fbName = ""
   # githubName = "craigfisk"
 
@@ -57,10 +57,10 @@ paginate        = 6
   url = "/problem"
   weight = 100
 
-[[menu.main]]
-  name = "About"
-  url = "/about"
-  weight = 99
+#[[menu.main]]
+#  name = "About"
+#  url = "/about"
+#  weight = 99
 
 # [[menu.main]]
 #   name = "Google"

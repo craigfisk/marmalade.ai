@@ -1,0 +1,13 @@
+<article class="post-full post page no-image">
+    <header class="post-full-header">
+        <h1 class="post-full-title">{{.Title | title}}</h1>
+    </header>
+
+    <section class="post-full-content">
+        <div class="kg-card-markdown">
+        {{ .Content }}
+        {{/* CF20190812 added next section */}}
+        <img src={{.Params.image}} />
+        </div>
+    </section>
+</article>
