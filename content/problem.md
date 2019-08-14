@@ -6,8 +6,6 @@ image: "/images/alex-block-0FTASntRc2M-unsplash_2000x666_middle.jpg"
 photourl: "https://unsplash.com/photos/0FTASntRc2M"
 photographer: "Alex Block"
 alt: "Umbrellas in Tokyo"
-width: "2000"
-height: "666"
 type: "page"
 ---
 
