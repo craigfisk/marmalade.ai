@@ -3,6 +3,11 @@ title: "The Big Networking Problem"
 date: 2019-08-09T11:16:08-07:00
 draft: false
 image: "/images/alex-block-0FTASntRc2M-unsplash_2000x666_middle.jpg"
+photourl: "https://unsplash.com/photos/0FTASntRc2M"
+photographer: "Alex Block"
+alt: "Umbrellas in Tokyo"
+width: "2000"
+height: "666"
 type: "page"
 ---
 
