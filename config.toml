@@ -1,4 +1,5 @@
-baseurl         = "https://example.craigfisk.com"
+baseurl         = ""
+#baseurl         = "https://example.craigfisk.com"
 theme           = "hugo-casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
