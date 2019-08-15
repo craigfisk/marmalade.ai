@@ -11,9 +11,10 @@
         <div style="position:relative;float:left;font-family:Arial, sans-serif;font-size:0.6em;font-weight:bold" >Photo by <a href="{{ .Params.photourl }}" target="_blank" rel="noopener noreferrer">{{ .Params.photographer }}</a> on <a href="https://unsplash.com">Unsplash</a>
         </div>
         */}}
-        <figure style="position:relative">
-          <img style="display:block" src={{.Params.image}} alt={{.Params.alt}} >
-          <figcaption style="position:absolute;bottom:0;left:0;right:0;text-align:left;font-size:0.6em;font-family:Arial,sans-serif;font-weight:bold">Photo by <a href={{.Params.photourl}}>{{.Params.photographer}}</a> on Unsplash</figcaption>
+        <figure>
+          <img src={{.Params.image}} alt={{.Params.alt}} >
+          <figcaption>Photo by <a href={{.Params.photourl}}>{{.Params.photographer}}</a> on Unsplash</figcaption>
         </figure>
+        <img class="test" src={{.Params.image}} />
     </section>
 </article>
