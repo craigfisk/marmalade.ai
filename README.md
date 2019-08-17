@@ -9,5 +9,4 @@ To install and run locally:
     // Now open "localhost:1313" in your web browser  
 
 As of 2019-8-13, there are a homepage and a problem page.  
-
-Todo: change DNS to point to the built image on Netlify.
+As of 2019-8-17, https://marmalade.ai is running on Netlify.
