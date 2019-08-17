@@ -1,3 +1,8 @@
+.kg-card-markdown {
+  font-size:0.85em;
+  font-family:Arial, sans-serif;
+}
+
 figure {
    position:relative;
 }

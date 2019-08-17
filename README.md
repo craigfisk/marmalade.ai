@@ -10,4 +10,4 @@ To install and run locally:
 
 As of 2019-8-13, there are a homepage and a problem page.  
 
-Todo: add Unsplash credits for the images and change DNS to point to the built image on Netlify.
+Todo: change DNS to point to the built image on Netlify.

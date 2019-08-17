@@ -9,9 +9,9 @@ alt: "Umbrellas in Tokyo"
 type: "page"
 ---
 
-* How to find the people I should connect with?
+* How do I find people I should connect with?
 * Why can't I get random access into a worldwide pool?
-* Why can't I have connections that are better and ephemeral?
+* Why can't I have connections that are ephemeral?
 * How do the right people find me?
 * Isn't there a smart marketplace for this by now?
 * Where I own my information?
