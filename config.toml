@@ -11,7 +11,7 @@ paginate        = 6
   subtitle    = "Professional networking for the 21st century"
 
   #cover       = "img/blog-cover.jpg"
-  cover        = "images/cory-schadt-Hhcn6yy3Uo8-unsplash_2000x666.jpg"
+  cover        = "images/cory-schadt-Hhcn6yy3Uo8-unsplash_1000x333.webp"
   photourl     = "https://unsplash.com/photos/Hhcn6yy3Uo8"
   photographer = "Cory Schadt"
   description = "Here is a description of your site."
