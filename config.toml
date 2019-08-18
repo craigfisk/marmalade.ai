@@ -16,7 +16,7 @@ paginate        = 6
   photographer = "Cory Schadt"
   description = "Here is a description of your site."
   metaDescription = ""
-  googleAnalytics = ""
+  googleAnalytics = "UA-145864334-1"
   customCSS = []
   RSSLink = ""
 

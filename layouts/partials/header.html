@@ -43,4 +43,7 @@
   </div>
   {{/* CF20190815 adding photo credit */}}
   <p class="photocredit">Photo by <a href={{.Site.Params.photourl}}>{{.Site.Params.photographer}}</a> on Unsplash.</p>
+  {{/* CF20190818 added Google Analytics following
+    http://cloudywithachanceofdevops.com/posts/2018/05/17/setting-up-google-analytics-on-hugo/*/ }}
+  {{ template "_internal/google_analytics.html" . }}
 </header>
