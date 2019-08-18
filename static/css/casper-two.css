@@ -5,6 +5,9 @@
 
 figure {
    position:relative;
+   font-size:0.8em;
+   font-family:Arial,sans-serif;
+   font-weight:bold;
 }
 
 p.photocredit {
@@ -27,7 +30,7 @@ figcaption {
   left:0;
   right:0;
   text-align:right;
-  font-size:0.6em;
+  font-size:0.8em;
   font-family:Arial,sans-serif;
   font-weight:bold;
   color:grey;
