@@ -1,6 +1,6 @@
 # .gitignore for Hugo from Google searches
 # Hugo default output directory
-/public
+# /public
 *~
 
 ## OS Files

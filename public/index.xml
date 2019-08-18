@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 09 Aug 2019 11:16:08 -0700</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 08 Aug 2019 14:28:44 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Here is some about page text.</description>
+    </item>
+    
+    <item>
+      <title>The Big Networking Problem</title>
+      <link>/problem/</link>
+      <pubDate>Fri, 09 Aug 2019 11:16:08 -0700</pubDate>
+      
+      <guid>/problem/</guid>
+      <description>How do I find people I should connect with? Why can&amp;rsquo;t I get random access into a worldwide pool? Why can&amp;rsquo;t I have connections that are ephemeral? How do the right people find me? Isn&amp;rsquo;t there a smart marketplace for this by now? Where I own my information? And it is validated by the marketplace? Which makes connections I never would have found? Where everyone is valued for their contribution?</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>/my-first-post/</link>
+      <pubDate>Wed, 07 Aug 2019 14:16:10 -0700</pubDate>
+      
+      <guid>/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>/posts/my-first-post/</link>
+      <pubDate>Wed, 07 Aug 2019 14:16:10 -0700</pubDate>
+      
+      <guid>/posts/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

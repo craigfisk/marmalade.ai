@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 08 Aug 2019 14:28:44 -0700</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>about</title>
+      <link>/tags/about/</link>
+      <pubDate>Thu, 08 Aug 2019 14:28:44 -0700</pubDate>
+      
+      <guid>/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>networking</title>
+      <link>/tags/networking/</link>
+      <pubDate>Wed, 07 Aug 2019 14:16:10 -0700</pubDate>
+      
+      <guid>/tags/networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>posts</title>
+      <link>/tags/posts/</link>
+      <pubDate>Wed, 07 Aug 2019 14:16:10 -0700</pubDate>
+      
+      <guid>/tags/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>private_beta</title>
+      <link>/tags/private_beta/</link>
+      <pubDate>Wed, 07 Aug 2019 14:16:10 -0700</pubDate>
+      
+      <guid>/tags/private_beta/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
