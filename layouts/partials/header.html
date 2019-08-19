@@ -50,10 +50,6 @@
 {{/*  https://kodify.net/hugo/tools/go */}}
 
 
-{{ if (in (.Site.BaseURL | string) "localhost") }}
-  {{ printf "%#v" .Site.BaseURL }}
-{{ end }}
-
 {{/* if in (.Site.BaseURL | string) "marmalade.ai" */}}
 
 {{ if not (in (.Site.BaseURL | string) "localhost") }}
