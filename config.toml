@@ -1,4 +1,4 @@
-baseurl         = ""
+baseurl         = "https://marmalade.ai"
 #baseurl         = "https://example.craigfisk.com"
 theme           = "hugo-casper-two"
 languageCode    = "en-US"
