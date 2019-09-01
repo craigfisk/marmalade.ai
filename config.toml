@@ -42,7 +42,7 @@ paginate        = 6
 
   #casper or caspertwo
   singleViewStyle = "casper"
-
+  
 [permalinks]
   post = "/:slug/"
 # Relatively unique to this theme: means hugo new post/my-post.md

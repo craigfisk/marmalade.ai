@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>posts on </title>
-    <link>/tags/posts/</link>
+    <link>https://marmalade.ai/tags/posts/</link>
     <description>Recent content in posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 07 Aug 2019 14:16:10 -0700</lastBuildDate>
     
-	<atom:link href="/tags/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marmalade.ai/tags/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My First Post</title>
-      <link>/posts/my-first-post/</link>
+      <link>https://marmalade.ai/posts/my-first-post/</link>
       <pubDate>Wed, 07 Aug 2019 14:16:10 -0700</pubDate>
       
-      <guid>/posts/my-first-post/</guid>
+      <guid>https://marmalade.ai/posts/my-first-post/</guid>
       <description></description>
     </item>
     
