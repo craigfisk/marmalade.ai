@@ -1,4 +1,5 @@
-baseurl         = "https://marmalade.ai"
+BaseURL         = "https://marmalade.ai"
+#baseurl         = "https://marmalade.ai"
 #baseurl         = "https://example.craigfisk.com"
 theme           = "hugo-casper-two"
 languageCode    = "en-US"
@@ -7,6 +8,7 @@ paginate        = 6
 #SectionPagesMenu = "main"
 
 [params]
+  #isRelease   = true
   title       = "Marmalade.ai"
   subtitle    = "Professional networking for the 21st century"
 
@@ -14,7 +16,7 @@ paginate        = 6
   cover        = "images/cory-schadt-Hhcn6yy3Uo8-unsplash_1000x333.webp"
   photourl     = "https://unsplash.com/photos/Hhcn6yy3Uo8"
   photographer = "Cory Schadt"
-  description = "Here is a description of your site."
+  description = "Professional networking for the 21st century."
   metaDescription = ""
   googleAnalytics = "UA-145864334-1"
   customCSS = []
@@ -42,7 +44,7 @@ paginate        = 6
 
   #casper or caspertwo
   singleViewStyle = "casper"
-  
+
 [permalinks]
   post = "/:slug/"
 # Relatively unique to this theme: means hugo new post/my-post.md
