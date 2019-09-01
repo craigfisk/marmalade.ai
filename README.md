@@ -1,4 +1,4 @@
-This will be the static html website code for https://marmalade.ai
+This is the static html website code for https://marmalade.ai
 
 To install and run locally:  
 
