@@ -9,7 +9,7 @@ paginate        = 6
 
 [params]
   #isRelease   = true
-  title       = "Marmalade.ai"
+  title       = "Marmalade.ai - modern professional networking"
   subtitle    = "Professional networking for the 21st century"
 
   #cover       = "img/blog-cover.jpg"

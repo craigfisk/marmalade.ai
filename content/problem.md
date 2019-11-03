@@ -11,12 +11,13 @@ type: "page"
 
 * How do I automatically find people I should connect with?
 * Why can't I get random access into a worldwide pool?
-* Can I have connections that are more purposeful and short-lived?
-* How do the right people find me for the abilities I bring?
-* And anonymously define my expertise?
-* Isn't there a smart marketplace for this by now?
-* Where I can own my information?
-* And it is validated by the marketplace?
-* Which makes connections I never would have found?
-* Where everyone is valued for their contribution?
-* And my group or business can be more effective?
+<!--   block  //-->
+<!-- Can I have connections that are more purposeful and short-lived? //-->
+* How do the right people find me for work I'm great at doing?
+<!-- And anonymously define my expertise? //-->
+<!-- Isn't there a smart marketplace for this by now? //-->
+<!-- Where I can own my information? //-->
+<!-- And it is validated by the marketplace? //-->
+* How can I make connections I never would have found?
+<!-- Where everyone is valued for their contribution? //-->
+<!-- And my group or business can be more effective? //-->
