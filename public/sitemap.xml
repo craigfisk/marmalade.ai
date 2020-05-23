@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -10,7 +10,6 @@
   <url>
     <loc>https://marmalade.ai/</loc>
     <lastmod>2019-08-09T11:16:08-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -19,27 +18,23 @@
   </url>
   
   <url>
-    <loc>https://marmalade.ai/tags/</loc>
+    <loc>https://marmalade.ai/tags/about/</loc>
     <lastmod>2019-08-08T14:28:44-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://marmalade.ai/tags/about/</loc>
+    <loc>https://marmalade.ai/tags/</loc>
     <lastmod>2019-08-08T14:28:44-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://marmalade.ai/categories/</loc>
     <lastmod>2019-08-07T14:16:10-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://marmalade.ai/categories/life/</loc>
     <lastmod>2019-08-07T14:16:10-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -53,27 +48,23 @@
   </url>
   
   <url>
-    <loc>https://marmalade.ai/posts/</loc>
+    <loc>https://marmalade.ai/tags/networking/</loc>
     <lastmod>2019-08-07T14:16:10-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://marmalade.ai/tags/networking/</loc>
+    <loc>https://marmalade.ai/posts/</loc>
     <lastmod>2019-08-07T14:16:10-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://marmalade.ai/tags/posts/</loc>
     <lastmod>2019-08-07T14:16:10-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://marmalade.ai/tags/private_beta/</loc>
     <lastmod>2019-08-07T14:16:10-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
