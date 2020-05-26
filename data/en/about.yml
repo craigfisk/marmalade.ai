@@ -3,9 +3,9 @@ item    :
   - positionRight : false
     image : images/about/Passage_des_Princes.jpg
     title : Bazaars and market arcades, antediluvian - 2000
-    description : Freelancers' goods and services in physical presentation.
-      .
-
+    description : >
+      Freelancers' goods and services in physical presentation.
+      
   - positionRight : true
     image : images/about/sridar_gupta_coworking.jpg
     title : Co-working, 2000 - 2019
