@@ -575,8 +575,15 @@ a:focus, a:hover {
   margin: 0;
 }
 
+/* O padding, per See https://www.w3schools.com/css/css_padding.asp 
+a b c d = top, right, bottom, left
+x y z   = top, right/left, bottom
+m n     = top/bottom, right/left
+p       = top/right/bottom/left
+*/
+
 .hero-area {
-  padding: 0 0 50px 0; /* top, right, bottom, left See https://www.w3schools.com/css/css_padding.asp */
+  padding: 0 0 50px 0; /* top, right, bottom, left */
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
