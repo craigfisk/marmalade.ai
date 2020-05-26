@@ -576,7 +576,7 @@ a:focus, a:hover {
 }
 
 .hero-area {
-  padding: 0 0 50px 0; /* top, right, bottom, left */
+  padding: 0 0 50px 0; /* top, right, bottom, left See https://www.w3schools.com/css/css_padding.asp */
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
