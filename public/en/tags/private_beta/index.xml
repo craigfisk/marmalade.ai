@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>private_beta on </title>
-    <link>https://example.org/en/tags/private_beta/</link>
+    <link>https://marmalade.ai/en/tags/private_beta/</link>
     <description>Recent content in private_beta on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 07 Aug 2019 14:16:10 -0700</lastBuildDate>
     
-	<atom:link href="https://example.org/en/tags/private_beta/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marmalade.ai/en/tags/private_beta/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My First Post</title>
-      <link>https://example.org/en/my-first-post/</link>
+      <link>https://marmalade.ai/en/my-first-post/</link>
       <pubDate>Wed, 07 Aug 2019 14:16:10 -0700</pubDate>
       
-      <guid>https://example.org/en/my-first-post/</guid>
+      <guid>https://marmalade.ai/en/my-first-post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>https://example.org/en/posts/my-first-post/</link>
+      <link>https://marmalade.ai/en/posts/my-first-post/</link>
       <pubDate>Wed, 07 Aug 2019 14:16:10 -0700</pubDate>
       
-      <guid>https://example.org/en/posts/my-first-post/</guid>
+      <guid>https://marmalade.ai/en/posts/my-first-post/</guid>
       <description></description>
     </item>
     

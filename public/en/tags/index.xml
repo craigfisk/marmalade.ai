@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>https://example.org/en/tags/</link>
+    <link>https://marmalade.ai/en/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Aug 2019 14:28:44 -0700</lastBuildDate>
     
-	<atom:link href="https://example.org/en/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marmalade.ai/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>about</title>
-      <link>https://example.org/en/tags/about/</link>
+      <link>https://marmalade.ai/en/tags/about/</link>
       <pubDate>Thu, 08 Aug 2019 14:28:44 -0700</pubDate>
       
-      <guid>https://example.org/en/tags/about/</guid>
+      <guid>https://marmalade.ai/en/tags/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>networking</title>
-      <link>https://example.org/en/tags/networking/</link>
+      <link>https://marmalade.ai/en/tags/networking/</link>
       <pubDate>Wed, 07 Aug 2019 14:16:10 -0700</pubDate>
       
-      <guid>https://example.org/en/tags/networking/</guid>
+      <guid>https://marmalade.ai/en/tags/networking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>posts</title>
-      <link>https://example.org/en/tags/posts/</link>
+      <link>https://marmalade.ai/en/tags/posts/</link>
       <pubDate>Wed, 07 Aug 2019 14:16:10 -0700</pubDate>
       
-      <guid>https://example.org/en/tags/posts/</guid>
+      <guid>https://marmalade.ai/en/tags/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>private_beta</title>
-      <link>https://example.org/en/tags/private_beta/</link>
+      <link>https://marmalade.ai/en/tags/private_beta/</link>
       <pubDate>Wed, 07 Aug 2019 14:16:10 -0700</pubDate>
       
-      <guid>https://example.org/en/tags/private_beta/</guid>
+      <guid>https://marmalade.ai/en/tags/private_beta/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>about on </title>
-    <link>https://example.org/en/tags/about/</link>
+    <link>https://marmalade.ai/en/tags/about/</link>
     <description>Recent content in about on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Aug 2019 14:28:44 -0700</lastBuildDate>
     
-	<atom:link href="https://example.org/en/tags/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marmalade.ai/en/tags/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://example.org/en/about/</link>
+      <link>https://marmalade.ai/en/about/</link>
       <pubDate>Thu, 08 Aug 2019 14:28:44 -0700</pubDate>
       
-      <guid>https://example.org/en/about/</guid>
+      <guid>https://marmalade.ai/en/about/</guid>
       <description>Here is some about page text.</description>
     </item>
     

@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<sitemap>
-	   	<loc>https://example.org/fr/sitemap.xml</loc>
+	   	<loc>https://marmalade.ai/fr/sitemap.xml</loc>
 		
 	   	<lastmod>2018-07-07T18:23:33+06:00</lastmod>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>https://example.org/en/sitemap.xml</loc>
+	   	<loc>https://marmalade.ai/en/sitemap.xml</loc>
 		
 	   	<lastmod>2019-08-09T11:16:08-07:00</lastmod>
 		
