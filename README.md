@@ -27,4 +27,5 @@ To install and run locally:
 - For development, you run "hugo serve" in the project root directory and browse to localhost:1313 to see results.
 - For deployment, you run "hugo" in the project root directory, git add ., git commit etc., git push origin master and the repo on Github automatically is used to replace what is running on Netlify.
 - Key files in addition to index.html are config.toml, images are in static/content/images, layouts/partials includes hero.html, about.html, team.html are the 3 main layout files and they run entirely with content defined in config.toml. assets/css/style.css has at least one new class, title-class for the title.
+- The content in the 3-part section on history is in data/en/about.yml.
 - This theme is set up to be used as a multilingual site. All of that has been commented out and could be brought back in.
