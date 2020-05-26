@@ -1,23 +1,78 @@
-<footer class="site-footer outer">
-  <div class="site-footer-content inner">
-    <section class="copyright" style="line-height: 1.3em;">
-      <a href="/">{{.Site.Params.orgName}}</a> {{.Site.Params.copyright}}© 2019<br>
-      {{with .Site.Params.showSupport}}<span style="font-size: 0.8em; color: #555;">Hugo port of <a href="https://github.com/TryGhost/Casper">Casper 2.1.7</a> by <a href="https://www.telematika.org">EM</a></span>{{end}}
-    </section>
-    {{/* CF20190813
-    <nav class="site-footer-nav">
-        <a href="/">Latest Posts</a>
-        {{with .Site.Params.fbName}}<a href="https://www.facebook.com/{{.}}" target="_blank" rel="noopener">Facebook</a>{{end}}
-        {{with .Site.Params.twitterName}}<a href="https://twitter.com/{{.}}" target="_blank" rel="noopener">Twitter</a>{{end}}
-        {{with .Site.Params.githubName}}<a href="https://github.com/{{.}}" target="_blank" rel="noopener">Github</a>{{end}}
-        {{with .Site.Params.linkedinName}}<a href="https://www.linkedin.com/in/{{.}}" target="_blank" rel="noopener">LinkedIn</a>{{end}}
-        {{with .Site.Params.mediumName}}<a href="https://medium.com/@{{.}}" target="_blank" rel="noopener">Medium</a>{{end}}
-    </nav>
-  */}}
-  {{/*
-    <p>
-      Kilroy wuz here.
-      </p>
-  */}}
-  </div>
+{{ "<!-- Footer Start -->" | safeHTML }}
+<footer id="footer" class="bg-one">
+    <div class="top-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>{{ .Site.Params.footerAboutTitle }}</h3>
+                    {{ with .Site.Params.footerDescription }}<p>{{ . }}</p>{{ end }}
+                </div>
+                <!--
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>{{ .Site.Params.footerServiceTitle }}</h3>
+                    <ul>
+                        {{ range .Site.Menus.service }}
+                        <li>
+                            <a href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>{{ .Site.Params.footerQuicklinkTitle }}</h3>
+                    <ul>
+                        {{ range .Site.Menus.quicklink }}
+                        <li>
+                            <a href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>{{ .Site.Params.footerSubscribeTitle }}</h3>
+                    <form class="subscribe-form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <button type="submit" class="btn btn-main-sm">Subscribe Now</button>
+                    </form>
+                </div>
+                //-->
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <h5>Copyright 2018. All rights reserved.</h5>
+        <h6>Design and Developed by themefisher.com
+            <br>Get More
+            <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Free Bootstrap Templates</a>
+        </h6>
+    </div>
 </footer>
+{{ "<!-- end footer -->" | safeHTML }}
+
+
+{{ "<!-- Essential Scripts -->" | safeHTML }}
+
+{{ "<!-- jQuery -->" | safeHTML }}
+<script src="{{ "plugins/jquery/dist/jquery.min.js" | absURL }}"></script>
+{{ "<!-- Bootstrap -->" | safeHTML }}
+<script src="{{ "plugins/bootstrap/dist/js/popper.min.js" | absURL }}"></script>
+<script src="{{ "plugins/bootstrap/dist/js/bootstrap.min.js" | absURL }}"></script>
+{{ "<!-- Parallax -->" | safeHTML }}
+<script src="{{ "plugins/parallax/jquery.parallax-1.1.3.js" | absURL }}"></script>
+{{ "<!-- lightbox -->" | safeHTML }}
+<script src="{{ "plugins/lightbox2/dist/js/lightbox.min.js" | absURL }}"></script>
+{{ "<!-- Slick Carousel -->" | safeHTML }}
+<script src="{{ "plugins/slick-carousel/slick/slick.min.js" | absURL }}"></script>
+{{ "<!-- Portfolio Filtering -->" | safeHTML }}
+<script src="{{ "plugins/filterzr/jquery.filterizr.min.js" | absURL }}"></script>
+{{ "<!-- Smooth Scroll js -->" | safeHTML }}
+<script src="{{ "plugins/smooth-scroll/dist/js/smooth-scroll.min.js" | absURL }}"></script>
+<!--
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
+//-->
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>

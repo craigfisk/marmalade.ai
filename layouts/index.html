@@ -1,32 +1,32 @@
+{{ define "main" }}
 
-{{ partial "head" . }}
+  {{ partial "hero.html" . }}
+<!--
+  {{ partial "about-sm.html" . }}
+//-->
+<!--
+  {{ partial "feature.html" . }}
+//-->
+  {{ partial "about.html" . }}
 
-<body class="home-template"><div class="site-wrapper">
+<!--
+  {{ partial "workingprocess.html" . }}
 
-{{ partial "header" . }}
+  {{ partial "portfolio.html" . }}
+//-->
 
-<main id="site-main" class="site-main outer" role="main">
-  <P style="font-weight:bold; font-size:0.8em">
-    Please join the community to define this app on <a href="https://forum.marmalade.ai/">https://forum.marmalade.ai</a>
-    </P>
-{{/* CF20190113 commented out the blog post listing
-  <div class="inner">
-    <div class="post-feed">
-      {{ partial "post-list" . }}
-    </div>
+  {{ partial "team.html" . }}
 
-    <nav class="pagination" role="navigation">
-      {{if .Paginator.HasPrev}}
-          <a class="newer-posts" href="{{ .Paginator.Prev.URL }}">&larr; <span class="hide">Next Posts</span></a>
-      {{end}}
-      <span class="page-number"><span class="hide">Page {{ .Paginator.PageNumber }} of {{.Paginator.TotalPages}}</span>&nbsp;</span>
-      {{if .Paginator.HasNext}}
-          <a class="older-posts" href="{{ .Paginator.Next.URL }}"><span class="hide">Previous Posts</span> &rarr;</a>
-      {{end}}
-    </nav>
-  </div>
-*/}}
-</main>
-
-{{ partial "footer" . }}
-</div>{{ partial "js" . }}</body></html>
+  <!--
+  {{ partial "pricing.html" . }}
+//-->
+<!--
+  {{ partial "testimonial.html" . }}
+//-->
+<!--
+  {{ partial "blog.html" . }}
+//-->
+<!--
+  {{ partial "contact.html" . }}
+//-->
+{{ end }}
