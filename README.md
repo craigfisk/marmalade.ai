@@ -10,3 +10,4 @@ To install and run locally:
 
 As of 2019-8-13, there are a homepage and a problem page.  
 As of 2019-8-17, https://marmalade.ai is running on Netlify.
+As of 2020-5-25, switched to Themefisher navigator-hugo theme.
