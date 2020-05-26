@@ -1,4 +1,4 @@
-baseURL = "https://example.org/"
+baseURL = "https://marmalade.ai"
 languageCode = "en-us"
 # title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 theme = ["hugo-video", "navigator-hugo"]
