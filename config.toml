@@ -4,10 +4,15 @@ languageCode = "en-us"
 theme = ["hugo-video", "navigator-hugo"]
 summaryLength = 10
 
+# meta data
+author = "Marmalade AI"
+description = "This is meta description"
+
 # Build robots.txt file
 enableRobotsTXT = true
-# google analytics tracking id
-googleAnalytics = ""
+canonifyURLs = true  # added CF202020529 per https://keithpblog.org/post/hugo-website-seo/
+# google analytics tracking id [doesn't seem to be used; but id is instead in a tag script in the html partial]
+googleAnalytics = "UA-167791928-1"
 
 enableGitInfo = false
 pygmentsCodeFences = true
@@ -27,9 +32,10 @@ code = "fr"
 [[Params.listeLangues]]
 code = "en"
 
+
 # meta data
-author = "Marmalade AI"
-description = "This is meta description"
+# author = "Marmalade AI"
+# description = "This is meta description"
 
 # Gestion des langues : FR / EN / NL / DE
 [Languages]
