@@ -1,5 +1,9 @@
 <head>
 
+  
+    {{ printf "%#v" .Params }}
+  
+  {{ if .Params.gtm_id}}{{- partial "gtm.html" . }}{{ end }}
 
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
