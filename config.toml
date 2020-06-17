@@ -1,19 +1,20 @@
-#This is the root config.toml
+# This is the root config.toml
+# We are running /en version, so see [Languages.en.params]
 baseURL = "https://marmalade.ai"
-languageCode = "en-us"
+languageCode = "fr-fr" #"en-us"
 # title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 theme = ["hugo-video", "navigator-hugo"]
 summaryLength = 10
 
 # meta data
 author = "Marmalade AI"
-description = "This is meta description"
+description = "Modern freelancer networking."
 
 # Build robots.txt file
 enableRobotsTXT = true
 canonifyURLs = true  # added CF202020529 per https://keithpblog.org/post/hugo-website-seo/
 # google analytics tracking id [doesn't seem to be used; but id is instead in a tag script in the html partial]
-googleAnalytics = "" #"UA-167791928-1"
+googleAnalytics = "UA-167791928-1"
 
 enableGitInfo = false
 pygmentsCodeFences = true
@@ -26,9 +27,6 @@ DefaultContentLanguage = "en"
 # Site Params
 # [params]
 # logo = "images/logo.png"
-
-gtm_id = "	GTM-PF4HKDF"
-gtm_go = true
 
 # Gestion des langues : FR / EN / NL / DE
 [[Params.listeLangues]]
@@ -118,6 +116,10 @@ languageCode = "en-us"
 # title = "Example site multi-language"
 dateFormat = "January 2, 2006"
 
+[Languages.en.params]
+gtm_id = "	GTM-PF4HKDF"
+gtm_ga = true
+
 # home = "EN Home"
 # logo = "images/logo.png"
 # menufixed = false
@@ -127,6 +129,35 @@ footerServiceTitle = "Service"
 footerQuicklinkTitle = "Quicklinks"
 footerAboutTitle = "About"
 footerSubscribeTitle = "Subscribe"
+
+# CF20200616 copied the entire next section from the start above:
+# -----------------------------------
+baseURL = "https://marmalade.ai"
+languageCode = "fr-fr" #"en-us"
+# title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
+theme = ["hugo-video", "navigator-hugo"]
+summaryLength = 10
+
+# meta data
+author = "Marmalade AI"
+description = "Modern freelancer networking."
+
+# Build robots.txt file
+enableRobotsTXT = true
+canonifyURLs = true  # added CF202020529 per https://keithpblog.org/post/hugo-website-seo/
+# google analytics tracking id [doesn't seem to be used; but id is instead in a tag script in the html partial]
+googleAnalytics = "UA-167791928-1"
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "en"
+
+# CF20200616 end
+#---------------------------------------
 
 # Hero Area Section
 [Languages.en.params.hero]
