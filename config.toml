@@ -1,7 +1,7 @@
 # This is the root config.toml
 # We are running /en version, so see [Languages.en.params]
 baseURL = "https://marmalade.ai"
-languageCode = "fr-fr" #"en-us"
+languageCode = "fr-fr" #"en-us" #
 # title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 theme = ["hugo-video", "navigator-hugo"]
 summaryLength = 10
@@ -26,7 +26,6 @@ DefaultContentLanguage = "en"
 
 # Site Params
 # [params]
-# logo = "images/logo.png"
 
 # Gestion des langues : FR / EN / NL / DE
 [[Params.listeLangues]]
@@ -140,7 +139,7 @@ summaryLength = 10
 
 # meta data
 author = "Marmalade AI"
-description = "Modern freelancer networking."
+description = "Virtual networking for freelancers."
 
 # Build robots.txt file
 enableRobotsTXT = true
@@ -169,6 +168,10 @@ button  = true
 btnText = "Know More"
 btnURL  = "https://forum.marmalade.ai/"
 videoThumb = "images/slider/Freelancer_networking.jpg"
+logo = "images/Marmalade_Logo_03e_notext_128t.png"
+
+#Site.Params.logo
+
 # videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 # videoURL = "https://youtu.be/LZc5zkMdAqY"
 # videoURL = "https://www.youtube.com/embed/LZc5zkMdAqY"

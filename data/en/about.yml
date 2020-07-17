@@ -2,7 +2,7 @@ enable  : true
 item    :
   - positionRight : false
     image : images/about/Passage_des_Princes.jpg
-    title : 'Bazaars and market arcades (antediluvian - 2000)'
+    title : 'Bazaars and market arcades (since forever - 2000)'
     description : >
       Freelancers' goods and services in physical presentation.
       

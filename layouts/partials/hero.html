@@ -2,8 +2,9 @@
 {{ "<!-- Hero Area -->" | safeHTML }}  
 
 <section class="hero-area">
+    
     <div class="container">
-        <h1 class='title-class'>{{ .Site.Params.hero.title }}</h1>
+        <h1 class='title-class'><img width="64" height="64" src="{{ with .Site.Params.hero.logo }}{{.| absURL }}{{ end }}" alt="splat_logo">{{ .Site.Params.hero.title }}</h1>
         <div class="row">
             
             <div class="col-md-6">
@@ -28,7 +29,7 @@
                         <h2>{{ . }}</h2>
                     {{ end }}
                     {{ with .Site.Params.hero.description }}
-                        <p>{{ . }}</p>
+                        <p style="font-weight:bold;">{{ . }}</p>
                     {{ end }}
                     {{ if .Site.Params.hero.button }}
                         <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
