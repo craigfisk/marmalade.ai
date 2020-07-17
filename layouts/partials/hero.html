@@ -3,8 +3,14 @@
 
 <section class="hero-area">
     
+    <!-- <div style="color:white;" class="tooltip">Hover over me<span class="tooltiptext">Tooltip text goes here</span> //-->
+    <!-- <div style="color:white;">
+        This is where tooltip is.
+    </div>
+    //-->
     <div class="container">
-        <h1 class='title-class'><img width="64" height="64" src="{{ with .Site.Params.hero.logo }}{{.| absURL }}{{ end }}" alt="splat_logo">{{ .Site.Params.hero.title }}</h1>
+            <h1 class='title-class'><img title="Credit: Jujube Li (thanks!)" width="64" height="64" src="{{ with .Site.Params.hero.logo }}{{.| absURL }}{{ end }}" alt="splat_logo">{{ .Site.Params.hero.title }}
+            </h1>
         <div class="row">
             
             <div class="col-md-6">
