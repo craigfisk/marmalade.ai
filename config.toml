@@ -168,8 +168,11 @@ button  = true
 btnText = "Know More"
 btnURL  = "https://forum.marmalade.ai/"
 videoThumb = "images/slider/Freelancer_networking.jpg"
-logo = "images/Marmalade_Logo_3e_64x64t2b.png"
 #logo = "images/Marmalade_Logo_03e_notext_128t.png"
+#logo = "images/Marmalade_Logo_3e_64x64t2b.png"
+logo = "images/Marmalade_Logo_3e_64x64t2c.png"
+#logo = "images/Marmalade_Logo_02e_solid_64.png"
+#logo = "images/Marmalade_Logo_02e_solid_64t.png"
 #Site.Params.logo
 
 # videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
