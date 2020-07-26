@@ -158,6 +158,7 @@ DefaultContentLanguage = "en"
 # CF20200616 end
 #---------------------------------------
 
+
 # Hero Area Section
 [Languages.en.params.hero]
 enable  = true
