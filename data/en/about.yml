@@ -1,16 +1,10 @@
 enable  : true
 item    :
-  - positionRight : false
-    image : images/about/Passage_des_Princes.jpg
-    title : 'Bazaars and market arcades (since forever - 2000)'
-    description : >
-      Freelancers' goods and services in physical presentation.
-      
   - positionRight : true
     image : images/about/sridar_gupta_coworking.jpg
     title : 'Co-working (2000 - 2019)'
     description : >
-      Shared workspaces where freelancers could network.
+      Shared workspaces where freelancers would network.
 
   - positionRight : true
     image : images/about/u3Hu4Rq7iWhjYfRhP6mtr5.jpg

@@ -8,7 +8,7 @@ summaryLength = 10
 
 # meta data
 author = "Marmalade AI"
-description = "Modern freelancer networking."
+description = "Virtual networking for freelancers."
 
 # Build robots.txt file
 enableRobotsTXT = true
@@ -164,17 +164,23 @@ DefaultContentLanguage = "en"
 enable  = true
 title = "armalade AI"
 heading = "You're freelancing. There are thousands of people you can connect with for better work."
-description = "Really? But there isn't time! Well, now you can have Marmalade AI do it. Companies and recruiters use software to sift through thousands of people for a job. Why shouldn't the freelancer be able to go the other way, find the best gigs, connect with the best resources, get tuned into what's going on? Your network should get smarter the more it's used, too. Want to change your network? Go ahead. Want to mix it up with more serendipidy? You can. You control your self-organizing network."
+description = "Really? But there isn't time! Well, now you can have Marmalade AI do it. Companies and recruiters use software to sift through thousands of people for a job. Why shouldn't the freelancer be able to go the other way, network with people doing similar work, find the best gigs, uncover resources, get tuned into what's going on? Your network should get smarter the more it's used, too. Want to change your network? Go ahead. Want to mix it up with more serendipidy? You can. You're at the rudder of your self-organizing network."
 button  = true
-btnText = "Know More"
-btnURL  = "https://forum.marmalade.ai/"
+btnText = "Sign Up"
+btnURL = "https://forms.gle/WzZdgs6gFoiAPnH19"
+btn2Text = "Forum"
+btn2URL = "https://forum.marmalade.ai/"
+#btn2URL  = "https://docs.google.com/forms/d/16ffM64mDaaaVUypW4cvPuCvCQrgI6V6wlpd5RJ3LoJg/"
+# btnText = "Know More"
+# btnURL  = "https://forum.marmalade.ai/"
 videoThumb = "images/slider/Freelancer_networking.jpg"
 #logo = "images/Marmalade_Logo_03e_notext_128t.png"
 #logo = "images/Marmalade_Logo_3e_64x64t2b.png"
 #logo = "images/Marmalade_Logo_3e_64x64t2c.png"
 #logo = "images/Marmalade_Logo_02e_solid_64.png"
 #logo = "images/Marmalade_Logo_02e_solid_64t.png"
-logo = "images/Marmalade_Logo_3e_64x64t2cM.png"
+#logo = "images/Marmalade_Logo_3e_64x64t2cM.png"
+logo = "images/Marmalade_Logo_3e_64x64t2cN.png"
 #Site.Params.logo
 
 # videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"

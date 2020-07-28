@@ -2,8 +2,12 @@
 {{ with $data.about }}
     {{ if .enable }}
     {{ "<!-- About Section Start -->" | safeHTML }}
+
+
     <section class="about section-sm" id="about">
         <div class="container">
+
+
             {{ range .item }}
                 {{ if .positionRight }}
                     <div class="row mt-50 justify-content-center">
@@ -36,6 +40,7 @@
                 {{ end }}
             {{ end }}
         </div>
+
     </section>
     {{"<!-- About section End -->" | safeHTML}}
     {{ end }}

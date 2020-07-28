@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
+
 body {
   line-height: 1.4;
   font-family: "Titillium Web", sans-serif;
@@ -52,8 +53,23 @@ a:focus, a:hover {
   color: #f0326b;
 }
 
+.btn2-main, .btn2-main-sm {
+  background-color: white; /* #21D6BF; */
+  /* background-image: linear-gradient(100deg, #f9643d, #fe2a77);*/
+  color: black; /* #fff;*/
+  display: inline-block;
+  font-size: 14px; /*14 */
+  letter-spacing: 1px;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
 .btn-main, .btn-main-sm {
-  background-color: #21D6BF;
+  text-decoration: underline;
+  font-weight: bolder;
+  background-color: #21D6BF; 
   background-image: linear-gradient(100deg, #f9643d, #fe2a77);
   color: #fff;
   display: inline-block;
