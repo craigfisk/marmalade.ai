@@ -45,7 +45,7 @@
                             <div class="member-content">
                                 <h3>{{ .name }}</h3>
                                 <span>{{ .designation }}</span>
-                                <p>{{ .description }}</p>
+                                <p>{{ .description | markdownify }}</p>
                                 <!--
                                 <ul class="list-inline">
                                     {{ with .facebookURL }}
