@@ -161,13 +161,15 @@ DefaultContentLanguage = "en"
 
 # Hero Area Section
 [Languages.en.params.hero]
+# THIS IS THE CONFIG.TOML THAT IS ACTIVE..............
 enable  = true
 title = "armalade AI"
 heading = "You're freelancing. There are thousands of people you can connect with for better work."
 description = "Really? But there isn't time! Well, now you can have Marmalade AI do it. Companies and recruiters use software to sift through thousands of people for a job. Why shouldn't the freelancer be able to go the other way, network with people doing similar work, find the best gigs, uncover resources, get tuned into what's going on? Your network should get smarter the more it's used, too. Want to change your network? Go ahead. Want to mix it up with more serendipidy? You can. You're at the rudder of your self-organizing network."
 button  = true
 btnText = "Sign Up"
-btnURL = "https://forms.gle/WzZdgs6gFoiAPnH19"
+btnSignupURL = "#signup"
+#btnURL = "https://forms.gle/WzZdgs6gFoiAPnH19"
 btn2Text = "Forum"
 btn2URL = "https://forum.marmalade.ai/"
 #btn2URL  = "https://docs.google.com/forms/d/16ffM64mDaaaVUypW4cvPuCvCQrgI6V6wlpd5RJ3LoJg/"

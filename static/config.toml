@@ -59,6 +59,7 @@ description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo 
 button  = true
 btnText = "Know More"
 btnURL  = "https://themefisher.com/"
+btnSignupURL = "#signup"
 videoThumb = "images/slider/video-player-thumb.jpg"
 videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
