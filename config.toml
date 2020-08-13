@@ -161,7 +161,7 @@ DefaultContentLanguage = "en"
 
 # Hero Area Section
 [Languages.en.params.hero]
-# THIS IS THE CONFIG.TOML THAT IS ACTIVE..............
+# THIS IS THE CONFIG.TOML THAT IS ACTIVE..............use the one that is farthest down in the directory listing!
 enable  = true
 title = "armalade AI"
 heading = "You're freelancing. There are thousands of people you can connect with for better work."
