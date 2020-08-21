@@ -1,6 +1,0 @@
-[submodule "themes/hugo-casper-two"]
-	path = themes/hugo-casper-two
-	url = https://github.com/eueung/hugo-casper-two.git
-[submodule "navigator-hugo"]
-	path = navigator-hugo
-	url = https://github.com/themefisher/navigator-hugo.git
