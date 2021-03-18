@@ -3,10 +3,16 @@
     <div class="top-footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3 col-md-3 col-lg-3">
+                <!-- <div class="col-sm-3 col-md-3 col-lg-3">
                     <h3>{{ .Site.Params.footerAboutTitle }}</h3>
-                    {{ with .Site.Params.footerDescription }}<p>{{ . }}</p>{{ end }}
+                    {{ with .Site.Params.footerDescription }}<p style="color:orange;">{{ . }}</p>{{ end }}
+                </div> -->
+                <!-- <div class="col-sm-3 col-md-3 col-lg-3"> -->
+                <div>
+                  <h3>{{ .Site.Params.footerAboutTitle }}</h3>
+                  <p style="width: 400px;">{{ .Site.Params.footerDescription }}</p>
                 </div>
+
                 <!--
                     <div class="col-sm-3 col-md-3 col-lg-3">
                     <h3>{{ .Site.Params.footerServiceTitle }}</h3>

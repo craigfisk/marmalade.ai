@@ -1,13 +1,13 @@
-enable  : true
-item    :
-  - positionRight : true
-    image : images/about/sridar_gupta_coworking.jpg
-    title : 'Co-working (2000 - 2019)'
-    description : >
-      Shared workspaces where freelancers would network.
+enable: true
+item:
+  - positionRight: true
+    image: images/about/sridar_gupta_coworking.jpg
+    title: "Co-working (2000 - 2019)"
+    description: >
+      Shared workspaces where freelancers network.
 
-  - positionRight : true
-    image : images/about/u3Hu4Rq7iWhjYfRhP6mtr5.jpg
-    title : 'Virtual networking (2020+)'
-    description : >
+  - positionRight: true
+    image: images/about/u3Hu4Rq7iWhjYfRhP6mtr5.jpg
+    title: "Virtual networking (2020+)"
+    description: >
       The good news is we can connect to anyone. The bad news is we're just starting to understand what this means.
