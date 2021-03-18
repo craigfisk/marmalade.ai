@@ -1,19 +1,18 @@
-# Moving "main" back to "master". Had forgotten to do "hugo" to build.
 # This is the root config.toml
 # We are running /en version, so see [Languages.en.params]
-baseURL = "https://marmalade.ai" 
+baseURL = "https://marmalade.ai"
 languageCode = "fr-fr" #"en-us" #
 # title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
-summaryLength = 10
 theme = ["hugo-video", "navigator-hugo"]
+summaryLength = 10
 
 # meta data
 author = "Marmalade AI"
 description = "Virtual networking for freelancers."
 
 # Build robots.txt file
-canonifyURLs = true # added CF202020529 per https://keithpblog.org/post/hugo-website-seo/
-enableRobotsTXT = true 
+enableRobotsTXT = true
+canonifyURLs = true  # added CF202020529 per https://keithpblog.org/post/hugo-website-seo/
 # google analytics tracking id [doesn't seem to be used; but id is instead in a tag script in the html partial]
 googleAnalytics = "UA-167791928-1"
 
@@ -22,8 +21,8 @@ pygmentsCodeFences = true
 
 # Multilangues setup
 # Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
-DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "en"
 
 # Site Params
 # [params]
@@ -34,6 +33,7 @@ code = "fr"
 [[Params.listeLangues]]
 code = "en"
 
+
 # meta data
 # author = "Marmalade AI"
 # description = "This is meta description"
@@ -42,108 +42,108 @@ code = "en"
 [Languages]
 ############ 1 - Site en FRANCAIS
 [Languages.fr]
-dateFormat = "January 2, 2006"
+weight = 1
 languageCode = "fr-fr"
 title = "FRANCAIS Example site multi-language"
-weight = 1
+dateFormat = "January 2, 2006"
 
 home = "FR Home"
 logo = "images/logo.png"
 # menufixed = false
 
-footerAboutTitle = "FRANCAIS About"
 footerDescription = "FRANCAIS Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
-footerQuicklinkTitle = "FRANCAIS Quick links"
 footerServiceTitle = "FRANCAIS Services"
+footerQuicklinkTitle = "FRANCAIS Quick links"
+footerAboutTitle = "FRANCAIS About"
 footerSubscribeTitle = "FRANCAIS Subscribe"
 
 # Hero Area Section
 [Languages.fr.params.hero]
-btnText = "Know More"
-btnURL = "https://themefisher.com/"
-button = true
-description = "Quid Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Quii LoremLorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
-enable = true
+enable  = true
 heading = "FRANCAIS We like to make brands grow"
+description = "Quid Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Quii LoremLorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
+button  = true
+btnText = "Know More"
+btnURL  = "https://themefisher.com/"
 videoThumb = "images/slider/video-player-thumb.jpg"
 #videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
-videoURL = "https://www.youtube.com/embed/hWr-29MaOu8"
+videoURL   = "https://www.youtube.com/embed/hWr-29MaOu8"
 
 # About 2 Section
 [Languages.fr.params.aboutSm]
+enable  = true
+title   = "FRANCAIS We have explored the digital landscape with passion for a long time"
 description = "Quod Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
-enable = true
-title = "FRANCAIS We have explored the digital landscape with passion for a long time"
 
 # Blog Section On Homepage
 [Languages.fr.params.blog]
-enable = true
-subtitle = "Quo Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-title = "FRANCAIS Blog."
-topTitle = "OUR UNTOLD STORY"
+enable  = true
+topTitle= "OUR UNTOLD STORY"
+title   = "FRANCAIS Blog."
+subtitle= "Quo Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 
 # Contact Section
 [Languages.fr.params.contact]
+enable  = true
+topTitle= "DROP US A NOTE"
+title   = "FRANCAIS Contact Us."
+subtitle= "Querem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 address = "14/05, Stockhome <br> Victori Palace , United States"
-dribbble = "https://dribbble.com/"
-enable = true
-facebook = "https://www.facebook.com/"
-fax = "+61 3827 3590"
-instagram = "https://www.instagram.com/"
-linkedin = "https://www.linkedin.com/"
-mapLatitude = "51.507351"
-mapLongitude = "-0.127758"
-mapMarker = "images/marker.png"
-phone = "(03) 9283 2617"
-subtitle = "Querem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-title = "FRANCAIS Contact Us."
-topTitle = "DROP US A NOTE"
+phone   = "(03) 9283 2617"
+fax     = "+61 3827 3590"
+facebook= "https://www.facebook.com/"
 twitter = "https://twitter.com/"
+linkedin= "https://www.linkedin.com/"
+dribbble= "https://dribbble.com/"
+instagram= "https://www.instagram.com/"
+mapLatitude = "51.507351"
+mapLongitude= "-0.127758"
+mapMarker   = "images/marker.png"
 
 # Call to Action Section on About Page
 [Languages.fr.params.cta]
-bg = "images/call-to-action/call-to-action-bg-2.jpg"
+enable  = true
+bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+title   = "FRANCAIS Let's Create Something Together"
+subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
 btnText = "Nous contacter"
-enable = true
-subtitle = "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
-title = "FRANCAIS Let's Create Something Together"
 
 ############# 2 - Site en ENGLISH
 [Languages.en]
-languageCode = "en-us"
 weight = 2
+languageCode = "en-us"
 # title = "Example site multi-language"
 dateFormat = "January 2, 2006"
 
 [Languages.en.params]
-gtm_ga = true
 gtm_id = "	GTM-PF4HKDF"
+gtm_ga = true
 
 # home = "EN Home"
 # logo = "images/logo.png"
 # menufixed = false
 
-footerAboutTitle = "About"
-footerDescription = "© Copyright 2020-2021 Marmalade AI, Inc., a Delaware corporation. Address: 498 Umbria Pl, San Jose, CA 95128, USA."
-footerQuicklinkTitle = "Quicklinks"
+footerDescription = "© Copyright 2020 Marmalade AI, Inc., a Delaware corporation. Address: 498 Umbria Pl, San Jose, CA 95128, USA."
 footerServiceTitle = "Service"
+footerQuicklinkTitle = "Quicklinks"
+footerAboutTitle = "About"
 footerSubscribeTitle = "Subscribe"
 
 # CF20200616 copied the entire next section from the start above:
 # -----------------------------------
-baseURL = "https://marmalade.ai" 
+baseURL = "https://marmalade.ai"
 languageCode = "fr-fr" #"en-us"
 # title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
-summaryLength = 10
 theme = ["hugo-video", "navigator-hugo"]
+summaryLength = 10
 
 # meta data
 author = "Marmalade AI"
 description = "Virtual networking for freelancers."
 
 # Build robots.txt file
-canonifyURLs = true # added CF202020529 per https://keithpblog.org/post/hugo-website-seo/
-enableRobotsTXT = true 
+enableRobotsTXT = true
+canonifyURLs = true  # added CF202020529 per https://keithpblog.org/post/hugo-website-seo/
 # google analytics tracking id [doesn't seem to be used; but id is instead in a tag script in the html partial]
 googleAnalytics = "UA-167791928-1"
 
@@ -152,22 +152,23 @@ pygmentsCodeFences = true
 
 # Multilangues setup
 # Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
-DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "en"
 
 # CF20200616 end
 #---------------------------------------
 
+
 # Hero Area Section
 [Languages.en.params.hero]
 # THIS IS THE CONFIG.TOML THAT IS ACTIVE..............use the one that is farthest down in the directory listing!
-btnSignupURL = "#signup"
-btnText = "Sign Up"
-button = true
-description = "Really? But there isn't time! Well, now you can have Marmalade AI do it. ATS software sifts through thousands of people for a job. Why shouldn't the freelancer be able to go the other way, have a virtual network come to you with people doing similar work, find the best gigs, uncover resources, get tuned in to what's going on? Your network can get smarter the more it's used. Want to change your network? You can. Want more serendipity? Ok! You're in control of your network and can make it work for you."
-enable = true
-heading = "You're freelancing. There are thousands of people you can connect with for better work."
+enable  = true
 title = "armalade AI"
+heading = "You're freelancing. There are thousands of people you can connect with for better work."
+description = "Really? But there isn't time! Well, now you can have Marmalade AI do it. Companies and recruiters use software to sift through thousands of people for a job. Why shouldn't the freelancer be able to go the other way, network with people doing similar work, find the best gigs, uncover resources, get tuned into what's going on? Your network should get smarter the more it's used, too. Want to change your network? Go ahead. Want to mix it up with more serendipidy? You can. You're at the rudder of your self-organizing network."
+button  = true
+btnText = "Sign Up"
+btnSignupURL = "#signup"
 #btnURL = "https://forms.gle/WzZdgs6gFoiAPnH19"
 btn2Text = "Forum"
 btn2URL = "https://forum.marmalade.ai/"
@@ -194,26 +195,27 @@ videoURL = "https://www.youtube.com/embed/GPIutj9hBLo"
 # https://youtu.be/hWr-29MaOu8
 # https://youtu.be/GPIutj9hBLo
 
+
 # About 2 Section
 [Languages.en.params.aboutSm]
+enable  = true
+title   = "We have explored the digital landscape with passion for a long time"
 description = "Qui Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
-enable = true
-title = "We have explored the digital landscape with passion for a long time"
 
 # Blog Section On Homepage
 [Languages.en.params.blog]
-enable = true
-subtitle = "Quiz Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-title = "Blog."
-topTitle = "OUR UNTOLD STORY"
+enable  = true
+topTitle= "OUR UNTOLD STORY"
+title   = "Blog."
+subtitle= "Quiz Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 
 # Contact Section
 [Languages.en.params.contact]
-enable = true
+enable  = true
 # topTitle= "DROP US A NOTE"
 # title   = "Contact Us."
+subtitle= "Qua Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 address = "498 Umbria Pl, San Jose, CA 95128, United States"
-subtitle = "Qua Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 # phone   = "(03) 9283 2617"
 # fax     = "+61 3827 3590"
 # facebook= "https://www.facebook.com/"
@@ -227,11 +229,11 @@ subtitle = "Qua Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum 
 
 # Call to Action Section on About Page
 [Languages.en.params.cta]
-bg = "images/call-to-action/call-to-action-bg-2.jpg"
+enable  = true
+bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+title   = "Let's Create Something Together"
+subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
 btnText = "Contact Us"
-enable = true
-subtitle = "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
-title = "Let's Create Something Together"
 
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
 
@@ -261,32 +263,32 @@ title = "Let's Create Something Together"
 
 # Footer Service Menu
 [[menu.service]]
-name = "graphicdesign"
-url = "service"
-weight = 1
+name    = "graphicdesign"
+url     = "service"
+weight  = 1
 [[menu.service]]
-name = "webdesign"
-url = "service"
-weight = 2
+name    = "webdesign"
+url     = "service"
+weight  = 2
 [[menu.service]]
-name = "webdevelopment"
-url = "service"
-weight = 3
+name    = "webdevelopment"
+url     = "service"
+weight  = 3
 
 # Footer Quick links Menu
 [[menu.quicklink]]
-name = "partners"
-url = "about"
-weight = 1
+name    = "partners"
+url     = "about"
+weight  = 1
 [[menu.quicklink]]
-name = "about"
-url = "about"
-weight = 2
+name    = "about"
+url     = "about"
+weight  = 2
 [[menu.quicklink]]
-name = "faqs"
-url = "about"
-weight = 3
+name    = "faqs"
+url     = "about"
+weight  = 3
 [[menu.quicklink]]
-name = "badges"
-url = "about"
-weight = 4
+name    = "badges"
+url     = "about"
+weight  = 4
