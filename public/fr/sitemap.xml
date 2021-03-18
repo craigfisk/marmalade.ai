@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://marmalade.ai/fr/blog/</loc>
     <lastmod>2018-07-07T18:23:33+06:00</lastmod>
@@ -15,9 +14,7 @@
                 hreflang="fr"
                 href="https://marmalade.ai/fr/blog/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/fr/</loc>
     <lastmod>2018-07-07T18:23:33+06:00</lastmod>
     <xhtml:link
@@ -30,9 +27,7 @@
                 hreflang="fr"
                 href="https://marmalade.ai/fr/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/fr/blog/are-you-doing-the-right-way/</loc>
     <lastmod>2018-07-07T17:04:41+06:00</lastmod>
     <xhtml:link
@@ -45,9 +40,7 @@
                 hreflang="fr"
                 href="https://marmalade.ai/fr/blog/are-you-doing-the-right-way/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/fr/contact/</loc>
     <lastmod>2018-07-07T15:53:27+06:00</lastmod>
     <xhtml:link
@@ -60,9 +53,7 @@
                 hreflang="fr"
                 href="https://marmalade.ai/fr/contact/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/fr/portfolio/</loc>
     <lastmod>2018-07-07T15:45:06+06:00</lastmod>
     <xhtml:link
@@ -75,9 +66,7 @@
                 hreflang="fr"
                 href="https://marmalade.ai/fr/portfolio/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/fr/service/</loc>
     <lastmod>2018-07-07T14:53:13+06:00</lastmod>
     <xhtml:link
@@ -90,9 +79,7 @@
                 hreflang="fr"
                 href="https://marmalade.ai/fr/service/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/fr/about/</loc>
     <lastmod>2018-07-07T12:37:52+06:00</lastmod>
     <xhtml:link
@@ -105,9 +92,7 @@
                 hreflang="fr"
                 href="https://marmalade.ai/fr/about/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -119,9 +104,7 @@
                 hreflang="fr"
                 href="https://marmalade.ai/fr/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -134,5 +117,4 @@
                 href="https://marmalade.ai/fr/tags/"
                 />
   </url>
-  
 </urlset>

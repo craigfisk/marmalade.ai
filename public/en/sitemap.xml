@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://marmalade.ai/en/about/</loc>
     <lastmod>2019-08-08T14:28:44-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/problem/</loc>
     <lastmod>2019-08-09T11:16:08-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/</loc>
     <lastmod>2019-08-08T14:28:44-07:00</lastmod>
     <xhtml:link
@@ -25,14 +20,10 @@
                 hreflang="en"
                 href="https://marmalade.ai/en/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/tags/about/</loc>
     <lastmod>2019-08-08T14:28:44-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/tags/</loc>
     <lastmod>2019-08-08T14:28:44-07:00</lastmod>
     <xhtml:link
@@ -45,9 +36,7 @@
                 hreflang="en"
                 href="https://marmalade.ai/en/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/categories/</loc>
     <lastmod>2019-08-07T14:16:10-07:00</lastmod>
     <xhtml:link
@@ -60,69 +49,43 @@
                 hreflang="en"
                 href="https://marmalade.ai/en/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/categories/life/</loc>
     <lastmod>2019-08-07T14:16:10-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/my-first-post/</loc>
     <lastmod>2019-08-07T14:16:10-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/posts/my-first-post/</loc>
     <lastmod>2019-08-07T14:16:10-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/tags/networking/</loc>
     <lastmod>2019-08-07T14:16:10-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/posts/</loc>
     <lastmod>2019-08-07T14:16:10-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/tags/posts/</loc>
     <lastmod>2019-08-07T14:16:10-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/tags/private_beta/</loc>
     <lastmod>2019-08-07T14:16:10-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/blog/blog-photos-on-phone/</loc>
     <lastmod>2018-07-08T12:22:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/blog/installation/</loc>
     <lastmod>2018-07-08T12:22:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/blog/the-nourish-box-august/</loc>
     <lastmod>2018-07-08T12:20:58+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/blog/this-show-has-divided/</loc>
     <lastmod>2018-07-08T12:18:46+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/blog/why-you-need-a-statement-bag-this-season/</loc>
     <lastmod>2018-07-08T12:11:29+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/blog/</loc>
     <lastmod>2018-07-07T18:23:33+06:00</lastmod>
     <xhtml:link
@@ -135,9 +98,7 @@
                 hreflang="en"
                 href="https://marmalade.ai/en/blog/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/blog/are-you-doing-the-right-way/</loc>
     <lastmod>2018-07-07T17:04:41+06:00</lastmod>
     <xhtml:link
@@ -150,19 +111,13 @@
                 hreflang="en"
                 href="https://marmalade.ai/en/blog/are-you-doing-the-right-way/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/blog/something-i-need-to-tell-you/</loc>
     <lastmod>2018-07-07T17:04:02+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/blog/ten-things-about-business/</loc>
     <lastmod>2018-07-07T16:57:54+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/contact/</loc>
     <lastmod>2018-07-07T15:53:27+06:00</lastmod>
     <xhtml:link
@@ -175,9 +130,7 @@
                 hreflang="en"
                 href="https://marmalade.ai/en/contact/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/portfolio/</loc>
     <lastmod>2018-07-07T15:45:06+06:00</lastmod>
     <xhtml:link
@@ -190,9 +143,7 @@
                 hreflang="en"
                 href="https://marmalade.ai/en/portfolio/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/service/</loc>
     <lastmod>2018-07-07T14:53:13+06:00</lastmod>
     <xhtml:link
@@ -205,9 +156,7 @@
                 hreflang="en"
                 href="https://marmalade.ai/en/service/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marmalade.ai/en/about/</loc>
     <lastmod>2018-07-07T12:37:52+06:00</lastmod>
     <xhtml:link
@@ -221,5 +170,4 @@
                 href="https://marmalade.ai/en/about/"
                 />
   </url>
-  
 </urlset>
