@@ -154,7 +154,6 @@ pygmentsCodeFences = true
 # Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-
 # CF20200616 end
 #---------------------------------------
 
