@@ -156,7 +156,6 @@ DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 # CF20200616 end
 #---------------------------------------
-
 # Hero Area Section
 [Languages.en.params.hero]
 # THIS IS THE CONFIG.TOML THAT IS ACTIVE..............use the one that is farthest down in the directory listing!
