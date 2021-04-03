@@ -4,11 +4,11 @@ title: Our Team.
 subtitle: It's very big and it's very small!
 
 member:
-  - image: images/team/alex-block-0FTASntRc2M-unsplash.jpg
+  - image: images/team/alex-block-0FTASntRc2M-unsplash_1000.jpg
     name: Freelancers and Fans
     designation: The drivers of Marmalade AI direction.
     description: >
-      At [https://forum.marmalade.ai](https://forum.marmalade.ai), you can help set app direction. Initial user research and fans determined what's being developed now. Its future will be defined by the people who use it.
+      At [https://forum.marmalade.ai](https://forum.marmalade.ai), you can help set app direction. User research and fans determined what's being developed now. Its future will be defined by the people who use it.
     facebookURL: https://www.facebook.com/
     twitterURL: https://twitter.com/
     gplusURL: https://plus.google.com/
@@ -18,7 +18,7 @@ member:
     name: Craig Fisk
     designation: CEO
     description: >
-      There's a founding team of four, all remote. As for me: University of Chicago Booth MBA, Intel software product line manager, co-founder/CEO of Series A venture mobile CRM company. That was then, this is now. Networking is broken. We're writing the front end in Vue.js and the back end in Google Cloud Functions with NLP and Firestore. The future is software driven by users.
+      There's a founding team of four, all remote. As for me: University of Chicago Booth MBA, Intel software product line manager, co-founder/CEO of Series A venture mobile CRM company. That was then, this is now. Networking is broken. We're starting with virtual peer networking among freelancers. We're writing the front end in Vue.js and the back end in Google Cloud Functions with NLP and Firestore. The future is software driven by users.
     facebookURL: https://www.facebook.com/
     twitterURL: https://twitter.com/
     gplusURL: https://plus.google.com/
