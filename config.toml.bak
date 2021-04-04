@@ -11,7 +11,7 @@ author = "Marmalade AI"
 description = "Virtual networking for freelancers."
 
 # Build robots.txt file
-enableRobotsTXT = true
+enableRobotsTXT = false
 canonifyURLs = true  # added CF202020529 per https://keithpblog.org/post/hugo-website-seo/
 # google analytics tracking id [doesn't seem to be used; but id is instead in a tag script in the html partial]
 googleAnalytics = "UA-167791928-1"
@@ -142,7 +142,7 @@ author = "Marmalade AI"
 description = "Virtual networking for freelancers."
 
 # Build robots.txt file
-enableRobotsTXT = true
+enableRobotsTXT = false
 canonifyURLs = true  # added CF202020529 per https://keithpblog.org/post/hugo-website-seo/
 # google analytics tracking id [doesn't seem to be used; but id is instead in a tag script in the html partial]
 googleAnalytics = "UA-167791928-1"
