@@ -117,7 +117,7 @@ dateFormat = "January 2, 2006"
 
 [Languages.en.params]
 gtm_ga = true
-gtm_id = "	GTM-PF4HKDF"
+gtm_id = "GTM-PF4HKDF"
 
 # home = "EN Home"
 # logo = "images/logo.png"
