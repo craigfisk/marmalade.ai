@@ -2,7 +2,7 @@
 # This is the root config.toml
 # We are running /en version, so see [Languages.en.params]
 baseURL = "https://marmalade.ai" 
-languageCode = "fr-fr" #"en-us" #
+languageCode = "en-us" #"fr-fr" #
 # title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 summaryLength = 10
 theme = ["hugo-video", "navigator-hugo"]
