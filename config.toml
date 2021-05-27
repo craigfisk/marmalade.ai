@@ -9,7 +9,7 @@ theme = ["hugo-video", "navigator-hugo"]
 
 # meta data
 author = "Marmalade AI"
-description = "Virtual peer networking for freelancers."
+description = "Virtual networking."
 
 # Build robots.txt file
 canonifyURLs = true # added CF202020529 per https://keithpblog.org/post/hugo-website-seo/
