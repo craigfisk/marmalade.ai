@@ -6,7 +6,7 @@ To install and run locally:
 
     git clone --recurse-submodules https://github.com/craigfisk/marmalade.ai.git
     cd marmalade.ai  
-    hugo server -D  
+    hugo serve -D  
     // if you didn't include "--recurse-submodules" you will get error messages about missing theme components  
     // Now open "localhost:1313" in your web browser  
 
@@ -14,7 +14,7 @@ To install and run locally:
 - As of 2019-8-13, there are a homepage and a problem page.  
 - As of 2019-8-17, https://marmalade.ai is running on Netlify.
 - As of 2020-7-25, switched to Themefisher navigator-hugo theme from hugo-casper-two theme.
-
+- As of 2021-6-1, builds with go version 1.16.4 and hugo version 0.83.1
 ### Detail:
 - Switched to Themefisher navigator-hugo theme from hugo-casper-two theme.
 - This is a responsive, single-page theme.
